@@ -67,7 +67,8 @@ public class Percolation {
     /**
      * Is site (row i, column j) full?
      */
-    public boolean isFull(int i, int j) 		// If site(row i, column j) in array of opened is full, in qf, the index of (row i, column j) should have the same root of index1.
+    public boolean isFull(int i, int j) 		
+    // If site(row i, column j) in array of opened is full, in qf, the index of (row i, column j) should have the same root of index1.
     {
     	if (i < 1 || i > size || j < 1 || j > size)
             throw new IndexOutOfBoundsException();
