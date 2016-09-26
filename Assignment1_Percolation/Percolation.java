@@ -38,7 +38,6 @@ public class Percolation {
         if (i == size) {
             qf.union(getIndex(i, j), index2);
         }
-
         if (j > 1 && isOpen(i, j - 1)) {
             qf.union(getIndex(i, j), getIndex(i, j - 1));
         }
@@ -52,8 +51,7 @@ public class Percolation {
             qf.union(getIndex(i, j), getIndex(i + 1, j));
         }
     }
-
-          
+         
     /**
      * Is site (row i, column j) open?
      */
