@@ -55,7 +55,7 @@ public class PercolationStats
 
    public static void main(String[] args)    // test client (described below)
    {
-	   int N = Integer.parseInt(args[0]);
+       int N = Integer.parseInt(args[0]);
        int T = Integer.parseInt(args[1]);
        
        PercolationStats Multiper = new PercolationStats(N,T);
