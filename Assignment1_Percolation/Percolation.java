@@ -1,7 +1,7 @@
 
 public class Percolation {
 
-	private static boolean[][] opened;
+    private static boolean[][] opened;
     private int index1 = 0;
     private int index2;
     private int size;
