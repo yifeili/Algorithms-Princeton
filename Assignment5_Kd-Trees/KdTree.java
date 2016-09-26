@@ -1,7 +1,7 @@
 import java.util.TreeSet;
 
 public class KdTree {
-    private static class KdNode {
+        private static class KdNode {
         private KdNode leftNode;
         private KdNode rightNode;
         private final boolean isVertical;
