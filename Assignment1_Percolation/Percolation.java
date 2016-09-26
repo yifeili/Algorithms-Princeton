@@ -1,4 +1,3 @@
-
 public class Percolation {
 
     private static boolean[][] opened;
@@ -99,5 +98,4 @@ public class Percolation {
     	per.open(3,3);
     	System.out.println(per.percolates());
     }
-
 }
