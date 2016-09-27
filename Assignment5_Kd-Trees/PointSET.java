@@ -20,12 +20,12 @@ public class PointSET {
  
     // add the point p to the set (if it is not already in the set)
     public void insert(Point2D p){
-        pointSET.add(p);
+        set.add(p);
     }
  
     // does the set contain the point p?
     public boolean contains(Point2D p){
-        return pointSET.contains(p);
+        return set.contains(p);
     }
  
     // draw all of the points to standard draw
