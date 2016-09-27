@@ -55,9 +55,9 @@ public class Board {
     // a board obtained by exchanging two adjacent blocks in the same row
     public Board twin(){
      int[][] twinBoard = new int[N][N];
-  for (int i=0; i<N; i++){
-   for (int j=0; j<N; j++){
-    twinBoard[i][j] = blocks[i][j];
+    for (int i=0; i<N; i++){
+       for (int j=0; j<N; j++){
+       twinBoard[i][j] = blocks[i][j];
    }
   }
      if (blocks[0][0] != 0 && blocks[0][1] != 0){
@@ -113,7 +113,7 @@ public class Board {
      }
      MinPQ<Board> q = new MinPQ<Board>(new Comparator<Board>() {
             public int compare(Board o1, Board o2) {
-                if (o1.manhattan() < o2.manhattan()) return -1;
+               if (o1.manhattan() < o2.manhattan()) return -1;
                else if (o1.manhattan() == o2.manhattan()) return 0;
                else return 1;
             }
