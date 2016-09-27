@@ -1,3 +1,4 @@
+/* Bruteforce implementation */
 import java.util.TreeSet;
 
 public class PointSET {
