@@ -52,11 +52,11 @@ public class PointSET {
         Point2D nearestPoint2D = null;
         double distance = Double.MAX_VALUE;
   
-        if (this.pointSET.isEmpty()){
+        if (this.set.isEmpty()){
             return nearestPoint2D;
         }
   
-        for (Point2D pointIter : pointSET) {
+        for (Point2D pointIter : set) {
             if (pointIter.distanceTo(p) < distance){
             nearestPoint2D = pointIter;
             distance = pointIter.distanceTo(p);
