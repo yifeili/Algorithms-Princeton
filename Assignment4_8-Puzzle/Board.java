@@ -2,11 +2,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Board {
- private final int[][] blocks;
- private final int N;
+    private final int[][] blocks;
+    private final int N;
  
- // construct a board from an N-by-N array of blocks
- // (where blocks[i][j] = block in row i, column j)
+    // construct a board from an N-by-N array of blocks
+    // (where blocks[i][j] = block in row i, column j)
     public Board(int[][] blocks){
      N = blocks.length;
      this.blocks = new int[N][];
