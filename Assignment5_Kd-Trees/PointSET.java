@@ -11,12 +11,12 @@ public class PointSET {
  
     // is the set empty?
     public boolean isEmpty(){
-        return set.pointSET.size() == 0;
+        return set.size() == 0;
     }
  
     // number of points in the set
     public int size(){
-        return set.pointSET.size();
+        return set.size();
     }
  
     // add the point p to the set (if it is not already in the set)
